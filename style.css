@@ -1,0 +1,209 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #00695c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  background: url('images/school.jpg') no-repeat center center/cover;
+  height: 300px;
+  position: relative;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2, section h3 {
+  color: #00695c;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004d40;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Staff page */
+.staff-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.staff-member {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.staff-member img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Cultural photo */
+.cultural-section {
+  text-align: center;
+}
+
+.cultural-section img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  margin-top: 20px;
+}
+
+/* Contact page */
+.contact-section {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.contact-section iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+a {
+  color: #004d40;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+}
+
+.about-container h2 {
+  text-align: center;
+  color: #00695c;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+.quick-facts {
+  margin-bottom: 30px;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.facts-grid div {
+  background: #e0f2f1;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.vision-mission {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.vision, .mission {
+  flex: 1 1 45%;
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.vision h3, .mission h3 {
+  color: #33691e;
+  margin-bottom: 10px;
+}
